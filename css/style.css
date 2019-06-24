@@ -1,42 +1,69 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+
 body {
     background-image: url(../img/Verlauf_Hintergrund.png);
-    background-origin: content-box;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
+    background-repeat: no-repeat;
+    background-size: 1024px auto;
+    background-color: coral;
+    background-position: center top;
+    font-family: Arial, sans-serif;
 }
+
+.header {
+    display: block;
+    margin-bottom: 17px;
+}
+
 .content {
-    width: 755px;
+    width: 1024px;
     margin: 0 auto;
+    padding: 0 134px;
 }
+
 h1 {
     display: none;
 }
-.header {
-    padding: 30px 0 0 0 ; 
-}
-.logo {
+
+.header a img {
     display: block;
-    margin:  0 auto 20px auto;
+    padding: 26px 0px 6px 185px;
 }
-nav ul {
-    list-style: none;
-    background: #fff;
+
+.menu {
+    height: 40px;
+}
+
+.menu ul {
+    display: block;
+    list-style-type: none;
+    justify-content: center;
+    border-bottom: 3px solud #9dc5f0;
+}
+
+.menu li {
+    border: 3px solid #f8f8f8;
+    border-left: none;
+}
+
+.menu li:first-child {
+    border-left: 3px solid #f8f8f8;
+}
+
+.menu a {
+    float: left;
+    color: #5f5d67;
+    font-family: "Arial";
+    text-decoration: none;
     font-size: 14px;
     font-weight: 400;
-    line-height: 30px;
-    border: 3px solid #f8f8f8;
-    border-bottom: 3px solid #9dc5f0;
-    overflow: hidden;
+    line-height: 38px;
+    margin: auto 31px;
 }
-nav ul li {
-    float: left;
-    box-sizing: border-box;
-    border-left: 1px solid #f8f8f8;
-    margin: 10px 10px ;
+
+.main-content {
+    display: block;
 }
